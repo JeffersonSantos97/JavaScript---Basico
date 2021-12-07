@@ -2,18 +2,18 @@
 
 - JavaScript básico das aulas do Youtube Programador a Bordo
 
-- (Conceitos Básicos)
-.Variáveis
-. Strings
-. Operadores matemáticos
-. Booleanos
-. Operadores lógicos
-. Condicionais if Else
-. Operador tenário
-. Switch Case
-. Array 
+# (Conceitos Básicos)
+- Variáveis
+-  Strings
+- Operadores matemáticos
+- Booleanos
+- Operadores lógicos
+- Condicionais if Else
+- Operador tenário
+- Switch Case
+- Array 
 
-- Loops While e For 
+# (Loops While e For )
  . Repetidor While: 00:27
 • While com break: 02:44
 • While - Exercício PING PONG: 03:50
