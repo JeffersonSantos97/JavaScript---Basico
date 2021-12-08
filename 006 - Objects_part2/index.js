@@ -72,4 +72,64 @@ console.log(time); // Flamengo//
 //Se já tiveru um onjeto criado, ele sempre retorna o criado dentro do objeto raiz
 */ 
 
-/* Desctruturing como parâmetro de function*/ 
+/* Desctruturing como parâmetro de function 
+
+function imprimeUsuario({nome, idade, sexo, }){
+    console.log(nome);
+    console.log(idade);
+    console.log(sexo)
+}
+var usuarioFuction = {
+    nome: "Jefferson",
+    idade: 24,
+    sexo: "M"
+}
+imprimeUsuario(usuarioFuction);
+*/
+/* Default value nas functions com destructuring  
+function imprimeUsuario({nome, idade, sexo, pais = "Cuba" }){
+    console.log(nome);
+    console.log(idade);
+    console.log(sexo)
+    console.log(pais); 
+    // Se eu não passar um valor ao pais, ele vai dar undefined
+    // OU eu crio um objeto pais, ou eu passo um padrão pré definido 
+}
+var usuarioFuction = {
+    nome: "Jefferson",
+    idade: 24,
+    sexo: "M", 
+    pais: "Etiópia" // Esse vai ser o padrão principal
+    // Se ele não existisse, ia valer o que está lá dentro da função 
+}
+imprimeUsuario(usuarioFuction);
+*/
+/* Object.keys e Objects.values 
+
+//Object.keys
+
+//Ele faz um array com as chaves do objeto
+
+var usuario = {
+    nome: "Jefferson",
+    idade: 24,
+    sexo: "M",
+    cor: "Preta"
+}
+//console.log(Object.keys(usuario)); // ['nome', 'idade', 'sexo','cor' ] // 
+
+// Object.values
+
+//Retorna um array com os valores do objeto 
+
+console.log(Object.values(usuario)); // ['Jefferson', 24, 'M', 'Preta ] // 
+*/
+
+/*  Iterando objetos com loop for */
+
+var usuario = {
+    nome: "Jeff",
+    idade: 24,
+    sexo: "M",
+    cor: "Preto"
+}
